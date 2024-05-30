@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <label>Form element</label>
+    <form name="basicForm" onsubmit="submitMyForm(event, 'submit clicked')">
+        <div>
+            <input type="text" name="name" placeholder="Enter Name" />
+            <input type="number" name="age" placeholder="Enter Age" />
+            <!-- <button name="submitForm" id="submitForm" onclick="submitMyForm(event);">Submit</button> -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <label>Without form element</label>
+    <div>
+        <input type="text" name="name_1" placeholder="Enter Name" />
+        <input type="number" name="age_1" placeholder="Enter Age" />
+        <button name="submitForm" id="submitForm_1" onclick="submitMyForm(event, 'button clicked');">Submit 1</button>
+
+    </div>
+</body>
+
+</html>
