@@ -3,12 +3,13 @@
 
 <head>
     <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <label>Form element</label>
     <form name="basicForm" onsubmit="submitMyForm(event, 'submit clicked')">
-        <div>
+        <div class="form-div">
             <input type="text" name="name" placeholder="Enter Name" />
             <input type="number" name="age" placeholder="Enter Age" />
             <!-- <button name="submitForm" id="submitForm" onclick="submitMyForm(event);">Submit</button> -->
@@ -16,7 +17,7 @@
         </div>
     </form>
     <label>Without form element</label>
-    <div>
+    <div class="form-div">
         <input type="text" name="name_1" placeholder="Enter Name" />
         <input type="number" name="age_1" placeholder="Enter Age" />
         <button name="submitForm" id="submitForm_1" onclick="submitMyForm(event, 'button clicked');">Submit 1</button>
